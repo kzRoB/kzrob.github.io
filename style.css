@@ -1,0 +1,54 @@
+:root {
+    --Black: #171A21;
+    --White: #bfd0d1;
+    --Accent: #286166;
+    --Tint: #7ea0a3;
+    --Tone: #183a3d;
+
+    --Font: "DM Sans";
+}
+
+body {
+    background-color: var(--White);
+    font-family: var(--Font);
+}
+
+/* The navigation menu links */
+.sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0; /* Stay at the top */
+    left: 0;
+    z-index: 1; /* Stay on top */
+    background-color: var(--Accent); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 16px;
+    text-align: center;
+}
+
+.brand {
+    height: auto;
+    max-width: fit-content;
+
+    /* alignment */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    background-color: var(--White);
+}
+
+.brand h1 {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--Black);
+    display: block;
+    transition: color 0.25s ease;
+}
+
+/* When you mouse over the navigation links, change their color */
+.brand h1:hover {
+    color: var(--Tint);
+}
