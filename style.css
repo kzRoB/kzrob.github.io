@@ -21,7 +21,7 @@ body {
     top: 0; /* Stay at the top */
     left: 0;
     z-index: 1; /* Stay on top */
-    background-color: var(--Accent); /* Black */
+    background-color: var(--Accent);
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 16px;
     text-align: center;
@@ -36,7 +36,7 @@ body {
     margin-right: auto;
     text-align: center;
 
-    background-color: var(--Accent);
+    background-color: var(--White);
 }
 
 .brand h1 {
@@ -51,4 +51,16 @@ body {
 /* When you mouse over the navigation links, change their color */
 .brand h1:hover {
     color: var(--Tint);
+}
+
+.navigation {
+    height: auto;
+    max-width: fit-content;
+
+    /* alignment */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    background-color: var(--White);   
 }
