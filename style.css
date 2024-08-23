@@ -64,3 +64,17 @@ body {
 
     background-color: var(--White);   
 }
+
+.navigation li {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--Black);
+    display: block;
+    transition: color 0.25s ease;
+}
+
+/* When you mouse over the navigation links, change their color */
+.navigation li:hover {
+    color: var(--Tint);
+}
