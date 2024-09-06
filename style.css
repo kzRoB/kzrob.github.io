@@ -13,6 +13,11 @@ body {
     font-family: var(--Font);
 }
 
+.nolinkdesign {
+    color: white;
+    text-decoration: none;
+}
+
 .topbar {
     width: 100%;
     height: 40px;
