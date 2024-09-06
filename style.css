@@ -5,12 +5,66 @@
     --Tint: #7ea0a3;
     --Tone: #183a3d;
 
-    --Font: "DM Sans";
+    --Font: "Roboto";
 }
 
 body {
     background-color: var(--White);
     font-family: var(--Font);
+}
+
+.topbar {
+    width: 100%;
+    height: 40px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+
+    color: white;
+    background-color: black;
+
+    padding: 12px;
+    display: flex;
+
+    .name {
+        flex: 1;
+        width: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: left;
+    
+        font-size: 36px;
+    }
+
+    .portfolio {
+        flex: 1;
+        width: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+
+        select {
+            background-color: transparent;
+            border: transparent;
+            color: white;
+            font-size: 20px;
+
+            option {
+                color: black;
+            }
+        }
+    }
+
+    .socials {
+        flex: 1;
+        width: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: right;
+    }
 }
 
 /* The navigation menu links */
