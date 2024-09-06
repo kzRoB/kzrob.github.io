@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
     --Black: #171A21;
     --White: #bfd0d1;
@@ -44,16 +48,21 @@ body {
         font-size: 36px;
     }
 
-    .portfolio {
+    .dropdown {
         flex: 1;
         width: auto;
         margin-top: auto;
         margin-bottom: auto;
         text-align: center;
 
+        display: inline-block;
+        position: relative;
+
         select {
+            cursor: pointer;
             background-color: transparent;
             border: transparent;
+            border-radius: 8px;
             color: white;
             font-size: 20px;
 
